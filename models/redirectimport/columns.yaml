@@ -1,0 +1,14 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+columns:
+
+    url_from:
+        label: URL from
+
+    url_to:
+        label: URL to
+        
+    note:
+        label: Note

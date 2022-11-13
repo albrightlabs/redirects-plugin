@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Redirect
+
+# Model Form Field configuration
+form: $/albrightlabs/redirects/models/redirect/fields.yaml
+
+# Model Class name
+modelClass: Albrightlabs\Redirects\Models\Redirect
+
+# Default redirect location
+defaultRedirect: albrightlabs/redirects/redirects
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: albrightlabs/redirects/redirects/update/:id
+    redirectClose: albrightlabs/redirects/redirects
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: albrightlabs/redirects/redirects
+    redirectClose: albrightlabs/redirects/redirects
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

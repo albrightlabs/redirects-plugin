@@ -1,0 +1,8 @@
+# ===================================
+#  Import/Export Behavior Config
+# ===================================
+
+import:
+    title: Import redirects
+    modelClass: Albrightlabs\Redirects\Models\RedirectImport
+    list: $/albrightlabs/redirects/models/redirectimport/columns.yaml

@@ -1,0 +1,27 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+
+scopes:
+
+    created_at:
+
+        # Filter name
+        label: Created Date
+
+        # Filter type
+        type: daterange
+
+        # SQL Conditions
+        conditions: created_at >= ':after' AND created_at <= ':before'
+
+    updated_at:
+
+        # Filter name
+        label: Last Modified
+
+        # Filter type
+        type: daterange
+
+        # SQL Conditions
+        conditions: updated_at >= ':after' AND updated_at <= ':before'

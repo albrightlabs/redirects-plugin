@@ -1,0 +1,22 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    url_from:
+        label: URL from
+        comment: "Ex: /old/page/url"
+        type: text
+        span: auto
+
+    url_to:
+        label: URL to
+        comment: "Ex: /new/page/url"
+        type: text
+        span: auto
+
+    note:
+        label: Note
+        type: textarea
+        size: small

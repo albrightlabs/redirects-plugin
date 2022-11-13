@@ -1,0 +1,31 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+
+    id:
+        label: ID
+        searchable: true
+
+    url_from:
+        label: URL from
+        searchable: true
+
+    url_to:
+        label: URL to
+        searchable: true
+
+    note:
+        label: Note
+        invisible: true
+        searchable: true
+
+    created_at:
+        label: Created at
+        type: date
+        invisible: true
+
+    updated_at:
+        label: Last modified
+        type: date

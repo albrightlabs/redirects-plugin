@@ -1,0 +1,8 @@
+{
+    "name": "albrightlabs/redirects-plugin",
+    "type": "october-plugin",
+    "description": "Manage and manually create front-end redirects.",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
