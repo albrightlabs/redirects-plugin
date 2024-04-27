@@ -39,6 +39,7 @@ class RedirectMiddleware
 
         // the current request URL with Query params
         $requestUrl = str_replace($request->url(), '', $request->fullUrl());
+        $requestUrl = ($requestUrl) ?: $request->path();
 
         // add a forward slash to the start of URL if doesn't exist
         if (substr($requestUrl, 0, 1) !== '/') {
